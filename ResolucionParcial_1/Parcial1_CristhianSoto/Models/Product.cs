@@ -9,7 +9,7 @@ namespace Parcial1_CristhianSoto.Models
     public class Product
     {
         [Key]
-        [Range(1,99999)]
+        [Range(1, 99999)]
         public int ProductId { get; set; }
         [Required]
         [StringLength(30, MinimumLength = 3, ErrorMessage = "Ingresar nombres entre 3 a 30 caracteres")]
