@@ -12,5 +12,7 @@ namespace Parcial1_CristhianSoto.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<Parcial1_CristhianSoto.Models.Product> Products { get; set; }
     }
 }
